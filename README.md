@@ -42,20 +42,17 @@ Copy code
 cd frontend
 npm install
 For the backend:
-
 bash
 Copy code
 cd backend
 npm install
 4. Start the Development Servers
 Start the React app:
-
 bash
 Copy code
 cd frontend
 npm start
 Start the Node.js server:
-
 bash
 Copy code
 cd backend

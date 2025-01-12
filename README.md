@@ -4,8 +4,7 @@
 🚀 A sleek and modern personal portfolio website to showcase my skills, projects, and achievements. 
     Built using <strong>ReactJS, Node.js, and React-Bootstrap </strong> to deliver an exceptional user experience.
     
-<sub>
-![image](https://github.com/user-attachments/assets/5975bf90-3891-435f-af38-18111a0465e7)</sub>
+![image](https://github.com/user-attachments/assets/5975bf90-3891-435f-af38-18111a0465e7)
 
 🛠️ Technologies Used
 Frontend:

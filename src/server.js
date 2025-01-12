@@ -2,8 +2,15 @@ const express = require("express");
 const cors = require("cors");
 const nodemailer = require("nodemailer");
 
+/** Enable CORS for all origins or restrict to your GitHub Pages domain */
+const corsOptions = {
+  origin: "https://divyanshitripathi.github.io", // Replace with your GitHub Pages URL
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  allowedHeaders: ["Content-Type", "Authorization"],
+};
+
 const app = express();
-app.use(cors());
+app.use(cors(corsOptions));
 app.use(express.json());
 
 const contactEmail = nodemailer.createTransport({

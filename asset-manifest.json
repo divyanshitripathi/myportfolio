@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/myportfolio/static/css/main.34e9ffa5.css",
-    "main.js": "/myportfolio/static/js/main.2dd53885.js",
+    "main.css": "/myportfolio/static/css/main.53128815.css",
+    "main.js": "/myportfolio/static/js/main.dc36f9dc.js",
     "static/js/453.41811d64.chunk.js": "/myportfolio/static/js/453.41811d64.chunk.js",
     "static/media/profile-img.jpg": "/myportfolio/static/media/profile-img.b75a46f9b2ed854ad253.jpg",
     "static/media/project-img4.png": "/myportfolio/static/media/project-img4.36259b68ba408ed40075.png",
@@ -12,7 +12,6 @@
     "static/media/project-img5.png": "/myportfolio/static/media/project-img5.8c802083e77f2799b0c6.png",
     "static/media/color-sharp2.png": "/myportfolio/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
     "static/media/project-img6.png": "/myportfolio/static/media/project-img6.99a93dd2405d45c7fb7b.png",
-    "static/media/portfolio.png": "/myportfolio/static/media/portfolio.482caf2c5e27bfbc332d.png",
     "static/media/project-img7.png": "/myportfolio/static/media/project-img7.e29a4bf155628f71d828.png",
     "static/media/Divyanshi Tripathi(DU).pdf": "/myportfolio/static/media/Divyanshi Tripathi(DU).0e4f3adf41a42df9e3e3.pdf",
     "static/media/angular.png": "/myportfolio/static/media/angular.071252d8f8925e03b31b.png",
@@ -21,6 +20,7 @@
     "static/media/CentraNo2-Bold.ttf": "/myportfolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/myportfolio/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/myportfolio/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/portfolio.png": "/myportfolio/static/media/portfolio.f25099797b4890a2e885.png",
     "static/media/html5.png": "/myportfolio/static/media/html5.10e4ccd8b1031c8b93af.png",
     "static/media/contact-img.svg": "/myportfolio/static/media/contact-img.87eac2b29352fa01abb2f9510ef6ac7e.svg",
     "static/media/next.png": "/myportfolio/static/media/next.0a8c089a83d5413d9d8b.png",
@@ -32,12 +32,12 @@
     "static/media/meter3.svg": "/myportfolio/static/media/meter3.2201f7e4df22bc4b08180210474f28cc.svg",
     "index.html": "/myportfolio/index.html",
     "static/media/nav-icon1.svg": "/myportfolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
-    "main.34e9ffa5.css.map": "/myportfolio/static/css/main.34e9ffa5.css.map",
-    "main.2dd53885.js.map": "/myportfolio/static/js/main.2dd53885.js.map",
+    "main.53128815.css.map": "/myportfolio/static/css/main.53128815.css.map",
+    "main.dc36f9dc.js.map": "/myportfolio/static/js/main.dc36f9dc.js.map",
     "453.41811d64.chunk.js.map": "/myportfolio/static/js/453.41811d64.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.34e9ffa5.css",
-    "static/js/main.2dd53885.js"
+    "static/css/main.53128815.css",
+    "static/js/main.dc36f9dc.js"
   ]
 }

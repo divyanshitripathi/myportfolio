@@ -114,7 +114,7 @@ nav.navbar.scrolled {
   background-color: #121212;
 }
 nav.navbar a.navbar-brand {
-  width: 11%;
+  width: 8%;
 }
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
@@ -263,7 +263,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner .tagline {
   font-weight: 700;
   letter-spacing: 0.8px;
-  padding: 8px 10px;
+  padding: 15px;
   background: linear-gradient(
     90.21deg,
     rgba(170, 54, 124, 0.5) -5.91%,
@@ -273,7 +273,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 20px;
   margin-bottom: 16px;
   display: inline-block;
+  background-size: 200%;
+  animation: blendColors 3s infinite alternate;
 }
+
 .banner h2 {
   font-size: 30px;
   font-weight: 600;

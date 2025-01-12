@@ -58,16 +58,24 @@ export const Skills = () => {
                     <h5>Redux</h5>
                   </div>
                   <div className="item">
+                    <img src={meter2} alt="image4" />
+                    <h5>React Bootstrap</h5>
+                  </div>
+                  <div className="item">
                     <img src={meter3} alt="image3" />
                     <h5>JavaScript</h5>
                   </div>
                   <div className="item">
                     <img src={meter1} alt="image4" />
-                    <h5>html5</h5>
+                    <h5>HTML5</h5>
                   </div>
                   <div className="item">
                     <img src={meter1} alt="image4" />
                     <h5>CSS3</h5>
+                  </div>
+                  <div className="item">
+                    <img src={meter2} alt="image4" />
+                    <h5>Bootstrap</h5>
                   </div>
                   <div className="item">
                     <img src={meter2} alt="image4" />

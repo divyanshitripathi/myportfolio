@@ -19,6 +19,7 @@ export const Banner = () => {
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState("");
   const [currentLogos, setCurrentLogos] = useState([0, 1, 2, 3]);
+  const [hover, setHover] = useState(false);
   const [isBlurred, setIsBlurred] = useState(true);
   const toRotate = ["Frontend Developer", "UI/UX Designer", "Web Developer"];
   const logos = [
@@ -109,7 +110,7 @@ export const Banner = () => {
                       isVisible ? "animate__animated animate__fadeIn" : ""
                     }
                   >
-                    <span className="tagline">Welcome to my Expertise</span>
+                    <span className="tagline">Welcome to my Portfolio</span>
                     <h2>
                       {`Hi! I'm Divyanshi Tripathi`} <br></br>
                       <span
@@ -126,15 +127,21 @@ export const Banner = () => {
                       applications.<br></br>"Crafting intuitive and engaging
                       user experiences with clean, efficient code."
                     </p>
-                    <a
-                      href={file}
-                      download="DivyanshiTripathi(DU).pdf"
-                      style={{ textDecoration: "none", color: "white" }}
-                    >
-                      <button classname="vvd" onClick={() => {}}>
+
+                    <button classname="vvd" onClick={() => {}}>
+                      <a
+                        href={file}
+                        download="DivyanshiTripathi(DU).pdf"
+                        style={{
+                          textDecoration: "none",
+                          color: hover ? "black" : "white",
+                        }}
+                        onMouseEnter={() => setHover(true)}
+                        onMouseLeave={() => setHover(false)}
+                      >
                         Resume <ArrowLeftCircle size={25} />
-                      </button>
-                    </a>
+                      </a>
+                    </button>
                   </div>
                 )}
               </TrackVisibility>

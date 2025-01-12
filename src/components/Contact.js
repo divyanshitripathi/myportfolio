@@ -30,7 +30,7 @@ export const Contact = () => {
     console.log("koo");
     e.preventDefault();
     setButtonText("Sending...");
-    const res = await fetch("http://localhost:5000/contact", {
+    const res = await fetch("https://myportfolio-jkn7.onrender.com/contact", {
       method: "POST",
       headers: {
         "Content-Type": "application/json;charset=utf-8",

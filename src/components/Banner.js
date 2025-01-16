@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { ArrowLeftCircle } from "react-bootstrap-icons";
-import file from "../components/Divyanshi Tripathi(DU).pdf";
+import file from "../components/Divyanshi Tripathi(DU)(Links).pdf";
 import techImage1 from "../assets/img/html5.png";
 import techImage2 from "../assets/img/css3.png";
 import techImage3 from "../assets/img/js.png";
@@ -131,7 +131,7 @@ export const Banner = () => {
                     <button classname="vvd" onClick={() => {}}>
                       <a
                         href={file}
-                        download="DivyanshiTripathi(DU).pdf"
+                        download="DivyanshiTripathi(Resume).pdf"
                         style={{
                           textDecoration: "none",
                           color: hover ? "black" : "white",

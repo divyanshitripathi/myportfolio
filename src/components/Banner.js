@@ -11,8 +11,6 @@ import techImage6 from "../assets/img/angular.png";
 import profileImg from "../assets/img/profile-img.jpg";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
-// import { HashLink } from "react-router-hash-link";
-import { BrowserRouter as Router } from "react-router-dom";
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -100,152 +98,150 @@ export const Banner = () => {
   return (
     <section className="banner" id="home">
       <Container>
-        <Router>
-          <Row className="align-items-center">
-            <Col xs={12} sm={12} md={6} xl={6}>
-              <TrackVisibility>
-                {({ isVisible }) => (
-                  <div
-                    className={
-                      isVisible ? "animate__animated animate__fadeIn" : ""
-                    }
-                  >
-                    <span className="tagline">Welcome to my Portfolio</span>
-                    <h2>
-                      {`Hi! I'm Divyanshi Tripathi`} <br></br>
-                      <span
-                        className="txt-rotate"
-                        dataPeriod="1000"
-                        data-rotate='[ "Frontend Developer", "UI/UX Designer", "Web Developer" ]'
-                      >
-                        <span className="wrap">{text}</span>
-                      </span>
-                    </h2>
-                    <p>
-                      Front-end Developer with 5+ years of experience in
-                      designing, developing, and maintaining front-end web
-                      applications.<br></br>"Crafting intuitive and engaging
-                      user experiences with clean, efficient code."
-                    </p>
+        <Row className="align-items-center">
+          <Col xs={12} sm={12} md={6} xl={6}>
+            <TrackVisibility>
+              {({ isVisible }) => (
+                <div
+                  className={
+                    isVisible ? "animate__animated animate__fadeIn" : ""
+                  }
+                >
+                  <span className="tagline">Welcome to my Portfolio</span>
+                  <h2>
+                    {`Hi! I'm Divyanshi Tripathi`} <br></br>
+                    <span
+                      className="txt-rotate"
+                      dataPeriod="1000"
+                      data-rotate='[ "Frontend Developer", "UI/UX Designer", "Web Developer" ]'
+                    >
+                      <span className="wrap">{text}</span>
+                    </span>
+                  </h2>
+                  <p>
+                    Front-end Developer with 5+ years of experience in
+                    designing, developing, and maintaining front-end web
+                    applications.<br></br>"Crafting intuitive and engaging user
+                    experiences with clean, efficient code."
+                  </p>
 
-                    <button classname="vvd" onClick={() => {}}>
-                      <a
-                        href={file}
-                        download="DivyanshiTripathi(Resume).pdf"
-                        style={{
-                          textDecoration: "none",
-                          color: hover ? "black" : "white",
-                        }}
-                        onMouseEnter={() => setHover(true)}
-                        onMouseLeave={() => setHover(false)}
-                      >
-                        Resume <ArrowLeftCircle size={25} />
-                      </a>
-                    </button>
-                  </div>
-                )}
-              </TrackVisibility>
-            </Col>
-            <Col xs={12} sm={12} md={6} xl={6}>
-              <Row
-                style={{
-                  display: " flex",
-                  flexDirection: "column",
-                  alignItems: "center",
-                  justifyContent: "center",
-                }}
-              >
-                <Col
-                  xs={12}
-                  sm={12}
-                  md={12}
-                  xl={12}
-                  style={{ textAlign: "center" }}
-                >
-                  <div>
-                    <img
-                      src={profileImg}
-                      alt="Profile"
+                  <button classname="vvd" onClick={() => {}}>
+                    <a
+                      href={file}
+                      download="DivyanshiTripathi(Resume).pdf"
                       style={{
-                        width: "50%",
-                        borderRadius: "50%",
-                        filter: isBlurred ? "blur(5px)" : "none", // Blur effect
-                        border: "5px solid #fff",
-                        animation: "none",
-                        height: "300px",
-                        marginBottom: "70px",
+                        textDecoration: "none",
+                        color: hover ? "black" : "white",
                       }}
-                    />
-                  </div>
-                </Col>
-                <Col
-                  xs={12}
-                  sm={12}
-                  md={12}
-                  xl={12}
-                  style={{ textAlign: "center" }}
-                >
-                  <div
+                      onMouseEnter={() => setHover(true)}
+                      onMouseLeave={() => setHover(false)}
+                    >
+                      Resume <ArrowLeftCircle size={25} />
+                    </a>
+                  </button>
+                </div>
+              )}
+            </TrackVisibility>
+          </Col>
+          <Col xs={12} sm={12} md={6} xl={6}>
+            <Row
+              style={{
+                display: " flex",
+                flexDirection: "column",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+            >
+              <Col
+                xs={12}
+                sm={12}
+                md={12}
+                xl={12}
+                style={{ textAlign: "center" }}
+              >
+                <div>
+                  <img
+                    src={profileImg}
+                    alt="Profile"
                     style={{
-                      cursor: "pointer",
-                      display: "inline-flex",
-                      flexDirection: "column",
-                      alignItems: "center",
-                      gap: "10px",
+                      width: "50%",
+                      borderRadius: "50%",
+                      filter: isBlurred ? "blur(5px)" : "none", // Blur effect
+                      border: "5px solid #fff",
+                      animation: "none",
+                      height: "300px",
+                      marginBottom: "70px",
+                    }}
+                  />
+                </div>
+              </Col>
+              <Col
+                xs={12}
+                sm={12}
+                md={12}
+                xl={12}
+                style={{ textAlign: "center" }}
+              >
+                <div
+                  style={{
+                    cursor: "pointer",
+                    display: "inline-flex",
+                    flexDirection: "column",
+                    alignItems: "center",
+                    gap: "10px",
+                  }}
+                >
+                  <span
+                    style={{
+                      color: "#fff",
+                      fontWeight: "300",
+                      fontSize: "14px",
+                      textTransform: "uppercase",
+                      letterSpacing: "1px",
                     }}
                   >
-                    <span
-                      style={{
-                        color: "#fff",
-                        fontWeight: "300",
-                        fontSize: "14px",
-                        textTransform: "uppercase",
-                        letterSpacing: "1px",
-                      }}
-                    >
-                      Scroll down to see the picture
-                    </span>
-                  </div>
-                </Col>
-              </Row>{" "}
-            </Col>
-          </Row>
-          <Row className="align-items-center">
-            <Col xs={12} md={24} xl={24}>
-              <TrackVisibility>
-                {({ isVisible }) => (
-                  <div
-                    style={{ marginTop: "20px" }}
-                    className={
-                      isVisible ? "animate__animated animate__zoomIn" : ""
-                    }
-                  >
-                    <img
-                      style={{ marginLeft: "80px" }}
-                      src={logos[currentLogos[0]]}
-                      alt={`Logo ${currentLogos[0]}`}
-                    />
-                    <img
-                      style={{ marginLeft: "80px" }}
-                      src={logos[currentLogos[1]]}
-                      alt={`Logo ${currentLogos[1]}`}
-                    />
-                    <img
-                      style={{ marginLeft: "80px" }}
-                      src={logos[currentLogos[2]]}
-                      alt={`Logo ${currentLogos[2]}`}
-                    />
-                    <img
-                      style={{ marginLeft: "80px" }}
-                      src={logos[currentLogos[3]]}
-                      alt={`Logo ${currentLogos[3]}`}
-                    />
-                  </div>
-                )}
-              </TrackVisibility>
-            </Col>
-          </Row>
-        </Router>
+                    Scroll down to see the picture
+                  </span>
+                </div>
+              </Col>
+            </Row>{" "}
+          </Col>
+        </Row>
+        <Row className="align-items-center">
+          <Col xs={12} md={24} xl={24}>
+            <TrackVisibility>
+              {({ isVisible }) => (
+                <div
+                  style={{ marginTop: "20px" }}
+                  className={
+                    isVisible ? "animate__animated animate__zoomIn" : ""
+                  }
+                >
+                  <img
+                    style={{ marginLeft: "80px" }}
+                    src={logos[currentLogos[0]]}
+                    alt={`Logo ${currentLogos[0]}`}
+                  />
+                  <img
+                    style={{ marginLeft: "80px" }}
+                    src={logos[currentLogos[1]]}
+                    alt={`Logo ${currentLogos[1]}`}
+                  />
+                  <img
+                    style={{ marginLeft: "80px" }}
+                    src={logos[currentLogos[2]]}
+                    alt={`Logo ${currentLogos[2]}`}
+                  />
+                  <img
+                    style={{ marginLeft: "80px" }}
+                    src={logos[currentLogos[3]]}
+                    alt={`Logo ${currentLogos[3]}`}
+                  />
+                </div>
+              )}
+            </TrackVisibility>
+          </Col>
+        </Row>
       </Container>
     </section>
   );

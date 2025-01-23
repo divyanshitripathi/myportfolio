@@ -1,12 +1,36 @@
 import { Col, Container, Row } from "react-bootstrap";
-
 import "react-multi-carousel/lib/styles.css";
+import gsap from "gsap";
 
 import colorSharp from "../assets/img/color-sharp.png";
+import { useEffect, useRef } from "react";
 
 export const Experience = () => {
+  const experienceRef = useRef(null);
+
+  useEffect(() => {
+    if (experienceRef.current) {
+      const experienceSections = gsap.utils.toArray(
+        ".experience-bx2",
+        experienceRef.current
+      );
+      gsap.fromTo(
+        experienceSections,
+        { opacity: 0, y: 50, duration: 1, stagger: 0.2 },
+        { opacity: 1, y: 0, duration: 1, stagger: 0.2 }
+      );
+      gsap.fromTo(
+        experienceRef.current.querySelector("line"),
+        { opacity: 0, x: -50, duration: 1 },
+        { opacity: 1, x: 0, duration: 1 }
+      );
+    }
+  }, []);
+
+  console.log({ experienceRef });
+
   return (
-    <section className="experience" id="experiences">
+    <section className="experience" id="experiences" ref={experienceRef}>
       <>
         <Container>
           <Row>
@@ -16,7 +40,9 @@ export const Experience = () => {
                 <Row>
                   <Col xs={12} sm={12} md={5} xl={5}>
                     <div className="experience-bx2">
-                      <h4>Senior Frontend Developer</h4>
+                      <h4 style={{ marginBottom: "0" }}>
+                        Senior Frontend Developer
+                      </h4>
                     </div>
                     <ul
                       style={{
@@ -65,7 +91,29 @@ export const Experience = () => {
                       </li>
                     </ul>
                   </Col>
-                  <Col xs={0} sm={0} md={2} xl={2}></Col>
+                  <Col xs={0} sm={0} md={2} xl={2}>
+                    {" "}
+                    <svg
+                      width="100%"
+                      height="100%"
+                      style={{
+                        position: "absolute",
+                        top: "-20%",
+                        left: 0,
+                        pointerEvents: "none",
+                      }}
+                    >
+                      <line
+                        x1="50%"
+                        y1="50%"
+                        x2="50%"
+                        y2="100%"
+                        stroke="white"
+                        strokeWidth="2"
+                      />
+                    </svg>
+                  </Col>
+
                   <Col xs={12} sm={12} md={5} xl={5}>
                     <div className="experience-bx2">
                       <h4 style={{ marginBottom: "0" }}>Intern Developer</h4>

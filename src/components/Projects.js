@@ -9,6 +9,7 @@ import projImg5 from "../assets/img/project-img5.png";
 import projImg6 from "../assets/img/project-img6.png";
 import projImg7 from "../assets/img/project-img7.png";
 import TrackVisibility from "react-on-screen";
+import { Router } from "react-router-dom";
 
 export const Projects = () => {
   const UAEProjects = [
@@ -23,6 +24,7 @@ export const Projects = () => {
         </p>
       ),
       imgUrl: projImg1,
+      eventKey: "1",
     },
     {
       title: "SP (Smart Car Parking System)",
@@ -35,6 +37,7 @@ export const Projects = () => {
         </p>
       ),
       imgUrl: projImg2,
+      eventKey: "1",
     },
     {
       title: "4S (Smart Site Safety Solution)",
@@ -46,6 +49,7 @@ export const Projects = () => {
         </p>
       ),
       imgUrl: projImg3,
+      eventKey: "1",
     },
   ];
 
@@ -63,6 +67,7 @@ export const Projects = () => {
         </p>
       ),
       imgUrl: projImg4,
+      eventKey: "2",
     },
     {
       title: "Fleet Tracking System",
@@ -73,6 +78,7 @@ export const Projects = () => {
         </p>
       ),
       imgUrl: projImg5,
+      eventKey: "2",
     },
     {
       title: "SWM (Smart Waste Management System)",
@@ -84,6 +90,7 @@ export const Projects = () => {
         </p>
       ),
       imgUrl: projImg6,
+      eventKey: "2",
     },
   ];
 
@@ -99,6 +106,7 @@ export const Projects = () => {
         </p>
       ),
       imgUrl: projImg7,
+      eventKey: "3",
     },
   ];
 

@@ -108,6 +108,7 @@ nav.navbar {
   top: 0;
   z-index: 9999;
   transition: 0.32s ease-in-out;
+  height: 100px;
 }
 nav.navbar.scrolled {
   padding: 0px 0;
@@ -133,8 +134,10 @@ span.navbar-text {
   align-items: center;
 }
 .social-icon {
-  display: inline-block;
+  display: flex;
   margin-left: 14px;
+  flex-direction: row-reverse;
+  align-items: center;
 }
 .social-icon a {
   width: 42px;
@@ -432,7 +435,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
-  margin: 14px auto 30px auto;
+  margin: 14px auto 0px auto;
   text-align: center;
   width: 56%;
 }
@@ -516,7 +519,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   transition: 0.5s ease-in-out;
   opacity: 0;
   width: 100%;
-  margin-top: 40px;
 }
 .proj-imgbx:hover .proj-txtx {
   top: 50%;
@@ -541,6 +543,114 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 35%;
   right: 0;
   z-index: -4;
+}
+
+.projectDetails h1 {
+  text-align: left;
+}
+
+.projectDetails .dropdown-divider {
+  height: 1px;
+  overflow: hidden;
+  border-top: 33px dashed var(--bs-dropdown-divider-bg);
+  background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%);
+}
+
+.projectDetails .work-item {
+  display: grid;
+  grid-template-columns: 350px 1fr;
+  column-gap: 50px;
+  margin-top: 20px;
+}
+
+.projectDetails .work-details {
+  display: grid;
+  grid-template-rows: 50px;
+  row-gap: 10px;
+  align-items: center;
+  text-align: left;
+}
+
+.projectDetails .work-summary p {
+  font-size: 20px;
+  text-align: justify;
+}
+
+.projectDetails .work-summary ul {
+  text-align: justify;
+  font-size: 18px;
+}
+
+.projectDetails .tag {
+  display: inline-block;
+  background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%);
+  color: white;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.projectDetails img {
+  width: 7%;
+  margin-bottom: 10px;
+  height: auto;
+}
+/* Define the rotating shadow animation */
+@keyframes rotateShadow {
+  0% {
+    box-shadow: 0 0 10px #aa367c, 0 0 30px #aa367c;
+  }
+  50% {
+    box-shadow: 10px 10px 10px #aa367c, -10px -10px 30px #aa367c;
+  }
+  100% {
+    box-shadow: 0 0 10px #aa367c, 0 0 30px #aa367c;
+  }
+}
+
+/* Define the zoom-in effect from the left */
+@keyframes zoomFromLeft {
+  0% {
+    transform: scale(0) translateX(-100%); /* Start off the screen from the left */
+  }
+  100% {
+    transform: scale(1) translateX(0); /* Zoom in to the normal size */
+  }
+}
+
+.projectDetails .card {
+  background: #15151500;
+  box-shadow: 0 0 10px #aa367c, 0 0 30px #aa367c;
+  border-radius: 20px;
+  color: white;
+  overflow: hidden;
+  animation: rotateShadow 5s infinite linear; /* Continuous rotating shadow */
+  transition: all 0.2s ease-in-out;
+  transform-origin: center; /* Smooth transition */
+}
+
+/* On hover: Apply the zoom effect */
+.projectDetails .card:hover {
+  transform: scale(1.05); /* Zoom-in effect */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Slight increase in shadow for emphasis */
+}
+
+.projectDetails .screenshotsLayout img {
+  width: 80%;
+  border-radius: 30px;
+  padding: 20px;
+  box-shadow: 0 0 10px #aa367c, 0 0 30px #aa367c;
+  transition: all 0.2s ease-in-out;
+  transform-origin: center;
+  margin-top: 20px;
+}
+
+.projectDetails .screenshotsLayout img:hover {
+  transform: scale(1.05); /* Zoom-in effect */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Slight increase in shadow for emphasis */
 }
 
 /************ Experience ***************/
@@ -720,7 +830,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 14px;
   color: #b8b8b8;
   letter-spacing: 0.5px;
-  margin-top: 20px;
 }
 
 .App {

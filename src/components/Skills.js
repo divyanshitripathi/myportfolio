@@ -78,10 +78,6 @@ export const Skills = () => {
                     <h5>Bootstrap</h5>
                   </div>
                   <div className="item">
-                    <img src={meter2} alt="image4" />
-                    <h5>Bootstrap</h5>
-                  </div>
-                  <div className="item">
                     <img src={meter3} alt="image4" />
                     <h5>Tailwind CSS</h5>
                   </div>

@@ -8,17 +8,36 @@ import { Projects } from "./components/Projects";
 import { Contact } from "./components/Contact";
 import { Experience } from "./components/Experience";
 import { Footer } from "./components/Footer";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+
+import ProjectDetails from "./components/ProjectDetails";
 
 function App() {
   return (
     <div className="App">
-      <NavBar />
-      <Banner />
-      <Skills />
-      <Projects />
-      <Experience />
-      <Contact />
-      <Footer />
+      <title>Divya Portfolio</title>
+
+      <Router>
+        <Routes>
+          {/* Static layout components */}
+          <Route
+            path="/myportfolio"
+            element={
+              <>
+                <NavBar />
+                <Banner />
+                <Skills />
+                <Projects />
+                <Experience />
+                <Contact />
+                <Footer />
+              </>
+            }
+          />
+          {/* Full-page view for ProjectDetails */}
+          <Route path="/projectDetails/:title" element={<ProjectDetails />} />
+        </Routes>
+      </Router>
     </div>
   );
 }

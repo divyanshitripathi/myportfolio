@@ -1,20 +1,33 @@
 {
   "files": {
-    "main.css": "/myportfolio/static/css/main.b4ab83bb.css",
-    "main.js": "/myportfolio/static/js/main.a8526757.js",
+    "main.css": "/myportfolio/static/css/main.4dcea6b0.css",
+    "main.js": "/myportfolio/static/js/main.6edcead6.js",
     "static/js/453.41811d64.chunk.js": "/myportfolio/static/js/453.41811d64.chunk.js",
     "static/media/profile-img.jpg": "/myportfolio/static/media/profile-img.b75a46f9b2ed854ad253.jpg",
     "static/media/project-img4.png": "/myportfolio/static/media/project-img4.36259b68ba408ed40075.png",
+    "static/media/4s Worker Tracking.png": "/myportfolio/static/media/4s Worker Tracking.58f16242f68d72d754fa.png",
     "static/media/project-img3.png": "/myportfolio/static/media/project-img3.ba5951ee82000bca32a3.png",
+    "static/media/4sFall alert dashboard.png": "/myportfolio/static/media/4sFall alert dashboard.d041e01ca7dd3c5529b4.png",
+    "static/media/4s Dashboard.png": "/myportfolio/static/media/4s Dashboard.90d513840fd4005b6f2d.png",
     "static/media/project-img2.png": "/myportfolio/static/media/project-img2.7126178d02d5402ba36e.png",
+    "static/media/DIC MainPage 2.png": "/myportfolio/static/media/DIC MainPage 2.b745cff6f0443504c2cd.png",
     "static/media/project-img1.png": "/myportfolio/static/media/project-img1.3961d0f926565838863a.png",
+    "static/media/DIC main Page.png": "/myportfolio/static/media/DIC main Page.01e1f77681d77b224f52.png",
     "static/media/color-sharp.png": "/myportfolio/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/project-img5.png": "/myportfolio/static/media/project-img5.8c802083e77f2799b0c6.png",
     "static/media/color-sharp2.png": "/myportfolio/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
     "static/media/project-img6.png": "/myportfolio/static/media/project-img6.99a93dd2405d45c7fb7b.png",
     "static/media/project-img7.png": "/myportfolio/static/media/project-img7.e29a4bf155628f71d828.png",
+    "static/media/SPSite.png": "/myportfolio/static/media/SPSite.301c972fd5ac8d0e10e5.png",
     "static/media/Divyanshi Tripathi(DU)(Links).pdf": "/myportfolio/static/media/Divyanshi Tripathi(DU)(Links).96c5985a599d130bc4dd.pdf",
+    "static/media/ShortList StartUps.png": "/myportfolio/static/media/ShortList StartUps.5e61bda8c3342a566610.png",
+    "static/media/DIC Search startUps 2.png": "/myportfolio/static/media/DIC Search startUps 2.221b67dcef72d57d1144.png",
+    "static/media/SPEnforcement.png": "/myportfolio/static/media/SPEnforcement.b871429e34cdefb03504.png",
+    "static/media/4s Alert Management.png": "/myportfolio/static/media/4s Alert Management.4bbe20aba373fcb684d4.png",
+    "static/media/SPNotifications.png": "/myportfolio/static/media/SPNotifications.dd847c7d05e1bf07dbf3.png",
     "static/media/angular.png": "/myportfolio/static/media/angular.071252d8f8925e03b31b.png",
+    "static/media/SPSubSite.png": "/myportfolio/static/media/SPSubSite.362e1e7eb4d18a7f0a5d.png",
+    "static/media/SPDashboard.png": "/myportfolio/static/media/SPDashboard.def0756460bb234d8dc4.png",
     "static/media/react.png": "/myportfolio/static/media/react.49e483efea379d4d8d8a.png",
     "static/media/css3.png": "/myportfolio/static/media/css3.5c605966391f44d8466c.png",
     "static/media/CentraNo2-Bold.ttf": "/myportfolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
@@ -32,12 +45,12 @@
     "static/media/meter3.svg": "/myportfolio/static/media/meter3.2201f7e4df22bc4b08180210474f28cc.svg",
     "index.html": "/myportfolio/index.html",
     "static/media/nav-icon1.svg": "/myportfolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
-    "main.b4ab83bb.css.map": "/myportfolio/static/css/main.b4ab83bb.css.map",
-    "main.a8526757.js.map": "/myportfolio/static/js/main.a8526757.js.map",
+    "main.4dcea6b0.css.map": "/myportfolio/static/css/main.4dcea6b0.css.map",
+    "main.6edcead6.js.map": "/myportfolio/static/js/main.6edcead6.js.map",
     "453.41811d64.chunk.js.map": "/myportfolio/static/js/453.41811d64.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b4ab83bb.css",
-    "static/js/main.a8526757.js"
+    "static/css/main.4dcea6b0.css",
+    "static/js/main.6edcead6.js"
   ]
 }
